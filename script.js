@@ -76,25 +76,25 @@ function add() {
     let result = num1 + num2 
     sum.textContent = "Sum: " + result
 }
-add()
+
 
 function subtract() {
     let result = num1 - num2
     sum.textContent = "Sum: " + result
 }
-subtract()
+
 
 function divide() {
     let result = num1 / num2 
     sum.textContent = "Sum: " + result
 }
-divide()
+
 
 function multiply() {
     let result = num1 * num2 
     sum.textContent = "Sum: " + result
 }
-multiply()
+
 // E.g. if the user clicks on the "Plus" button, you should render
 // "Sum: 10" (since 8 + 2 = 10) inside the paragraph with id="sum-el"
 
