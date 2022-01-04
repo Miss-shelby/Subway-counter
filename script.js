@@ -11,7 +11,7 @@ let myAge = 23;
  //count = count + 7;
  //console.log(count)
  //count = count -5;
- //console.log(count)
+ //console.log(count) 
 
  //create an increament button
  // intialize the count as 0
@@ -28,7 +28,7 @@ function increament() {
     countEl.innerHTML = count
     console.log(count)
 }
-increament();
+
 // 1. Grab the save-el paragrah and store it in a variable called saveEl
 
 function save() {
@@ -43,7 +43,7 @@ function save() {
     // NB: Make sure to not delete the existing content of the paragraph
 
 }
-save()
+
 
 
 let lapsCompleted = 0
