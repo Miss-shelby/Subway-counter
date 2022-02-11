@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Subway-counter</title>
+</head>
+<body>
+    <div class="container">
+        <h3>SUBWAY-COUNTER</h3>
+    </div>
+    <h1>People entered: </h1>
+    <h2 id="count-el">0</h2>
+    <!-- Create a INCREMENT button with the id="increment-btn" -->
+    <button id="increament-btn" onclick="increament()">INCREMENT</button>
+    <button id="decrease-btn" onclick="decrease()">DECREASE</button>
+    <!-- 2. Create a SAVE button.
+    Set the id to "save-btn" and call the save() function when it's clicked -->
+
+    <button id="save-btn" onclick="save()"> SAVE </button>
+
+    <p id="save-el">Previous Entries: </p>
+    <div class="Calculator-section">
+        <div class="container">
+            <h3>MINI CALCUATOR</h3>
+        </div>
+        <span id="num1-el"></span>
+        <span id="num2-el"></span>
+        <br>
+        <button onclick = " add()">Add</button>
+        <button onclick = " subtract()">Subtract</button>
+        <button onclick = " divide()">Divide</button>
+        <br>
+        <button onclick = " multiply()">Multiply</button>
+        <br>
+        <span id="sum-el">Sum: </span>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
